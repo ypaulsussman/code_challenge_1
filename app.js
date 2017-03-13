@@ -1,7 +1,11 @@
+var numClicks = 0;
+
 $(document).ready(function() {
 
   $("#generator").on("click", function() {
-    $(".container").append("<div class='tester'></div>");
+    numClicks++;
+    $(".container").append("<div class='allDiv baseCol'><p>" + numClicks + "</p></div>");
+
   });
 
 

@@ -1,6 +1,13 @@
-.tester{
-  width: 100px;
+.allDiv{
+  width: 200px;
   height: 100px;
-  background-color: pink;
-  
+  margin: 20px;
+}
+
+.baseCol{
+    background-color: red;
+}
+
+.swapped{
+  background-color: yellow;
 }
