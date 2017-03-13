@@ -11,3 +11,7 @@
 .swapped{
   background-color: yellow;
 }
+
+.swapper, .deleter{
+  background-color: white;
+}
