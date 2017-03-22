@@ -18,4 +18,4 @@ Follow the steps below to complete the code challenge:
 
 [x] Clicking a Swap <button> should change its parent background-color from Red to Yellow.
 
-[] Clicking a Delete <button> should remove its parent <div> container (and all of its contents).
+[x] Clicking a Delete <button> should remove its parent <div> container (and all of its contents).

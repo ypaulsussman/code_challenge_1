@@ -7,7 +7,7 @@ $(document).ready(function() {
 
   $(".container").on("click", ".swapper", function(){
     var swapped = $(this).parent();
-    makeItYellow(swapped);
+    changeColor(swapped);
   });
 
   $(".container").on("click", ".deleter", function(){
@@ -27,7 +27,6 @@ function makeDiv() {
                           "</div>");
 }
 
-function makeItYellow(swapped) {
-  swapped.removeClass("baseCol");
-  swapped.addClass("swapped");
+function changeColor(swapped) {
+  swapped.toggleClass('baseCol, swapped');
 }
